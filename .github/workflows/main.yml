@@ -19,6 +19,11 @@ jobs:
         with:
           node-version: '22.x'
 
+      - name: Install Dependencies
+        run: |
+          cd frontend
+          npm install
+
   build-backend:
     runs-on: ubuntu-latest
 
