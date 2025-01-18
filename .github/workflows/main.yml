@@ -43,7 +43,7 @@ jobs:
         run: |
           pipx install poetry
           cd backend
-          poetry install
+          poetry install --no-root
       
       - name: Run Tests
         run: |
