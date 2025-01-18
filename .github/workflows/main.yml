@@ -21,6 +21,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
+          pipx install poetry
           cd frontend
           npm ci
 
