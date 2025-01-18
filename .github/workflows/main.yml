@@ -32,3 +32,5 @@ jobs:
       - name: Install Dependencies
         run: |
           pipx install poetry
+          cd backed
+          poetry install
